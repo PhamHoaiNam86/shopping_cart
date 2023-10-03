@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^detail/([a-zA-Z0-9_-]+)-([0-9]+).html$ ?mod=page&act=detail&id=1
+RewriteRule ^detail/([a-zA-Z0-9_-]+)-([0-9]+).html$ ?mod=page&act=detail&id=2
+
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ ?mod=product&act=main&cat_id=1
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ ?mod=product&act=main&cat_id=2
